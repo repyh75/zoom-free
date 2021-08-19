@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+           
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/icon-font.css">
+        <title>온라인 클래스 도우미</title>
+    </head>
+    <body>
+        <!--페이지 상단 시작-->
+        <div class="title">
+            <h1 class="heading-first"><a href="index.html">성보고등학교</a></h1>
+        </div>
+        <hr class="underline">
+        
+
+</body>
+<script>
+    window.setTimeout('window.location.reload()',5000);
+    
+    const NOW_DATE = new Date();
+    var nowDay = "";
+    switch(NOW_DATE.getDay()){
+case 0:
+    nowDay = "일요일";
+    break;
+case 1:
+    nowDay = "월요일";
+    break;
+case 2:
+    nowDay = "화요일";
+    break;
+case 3:
+    nowDay = "수요일";
+    break;
+case 4:
+    nowDay = "목요일";
+    break;
+case 5:
+    nowDay = "금요일";
+    break;
+case 6:
+    nowDay = "토요일";
+    break;
+default :
+    nowDay = "알수없는요일";
+    break;
+}
+document.write("오늘 요일: ".fontsize(6).fontcolor("purple") + nowDay.fontsize(6).fontcolor("purple")+"<br><br>");
+switch(nowDay) { 
+    case "월요일":
+    switch(NOW_DATE.getHours()) {
+    case 8:
+        switch(NOW_DATE.getMinutes()) {
+            case 15:
+            window.location.href = "https://ojava.tistory.com/20";   
+            //지학
+        break;
+        }
+    break;
+      
+   } 
+     break;
+}  
+
+switch(nowDay) { 
+    case "화요일":
+    switch(NOW_DATE.getHours()) {
+    case 8:
+        switch(NOW_DATE.getMinutes()) {
+            case 15:
+            window.location.href = "https://ojava.tistory.com/20";   
+            //지학
+        break;
+        }
+    break;
+    case 15:
+        switch(NOW_DATE.getMinutes()) {
+            case 5:
+            window.location.href = "https://ojava.tistory.com/20";   
+            //화학
+        break;
+        }
+        break;   
+    } 
+     break;
+}   
+
+switch(nowDay) { 
+    case "수요일":
+    switch(NOW_DATE.getHours()) {
+    case 13:
+        switch(NOW_DATE.getMinutes()) {
+            case 5:
+            window.location.href = "https://ojava.tistory.com/20";   
+            //화학
+        break;
+        }
+    break;
+      } 
+     break;
+}  
+
+switch(nowDay) { 
+    case "목요일":
+    switch(NOW_DATE.getHours()) {
+    case 10:
+        switch(NOW_DATE.getMinutes()) {
+            case 15:
+            window.location.href = "https://ojava.tistory.com/20";   
+            //지학
+        break;
+        }
+        break;
+    case 14:
+    switch(NOW_DATE.getMinutes()) {
+            case 5:
+            window.location.href = "https://ojava.tistory.com/20";   
+            //화학
+        break;
+        }
+
+    break;
+      
+   } 
+     break;
+}  
+switch(nowDay) {
+    case "금요일":
+        break;
+}
+
+</script>
+    </body> 
+</html>
+
+
+
